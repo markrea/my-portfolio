@@ -10,9 +10,10 @@ h1 {
 body {
     background-color:#F7FBFF;
     margin:0;
+    font-family: monospace;
 }
-img {
-    border-radius:12%;
+#mark_image {
+    border-radius:12px;
     transform: scale(0.5);
     ;
 }
@@ -23,15 +24,30 @@ img {
 }
 #bio {
     font-size: 30px;
-    font-family: monospace;
     text-align: center;
     padding: 30px;
 }
 ul {
     font-size: 30px;
-    font-family: monospace;
+    align: center;
 }
 .hobbies {
     font-size: 35px;
-    font-family: monospace;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.contacts {
+    float: right;
+    width: 350px;
+    height: 100px;
+    padding: 20px 40px 20px 40px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }

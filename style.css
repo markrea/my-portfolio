@@ -1,20 +1,24 @@
 h1 {
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
     border: 0;
-    padding: 15px;
+    padding: 30px;
     text-align: center;
-    font-family: monospace;
-    font-size: 45px;
+    font-family: "Courier Prime";
+    font-size: 60px;
+    text-decoration: underline;
 
 }
 body {
     background-color:#F7FBFF;
     margin:0;
-    font-family: monospace;
+    font-family: "Courier Prime";
 }
 #mark_image {
+    width: 70%;
     border-radius:12px;
-    transform: scale(0.5);
+    transform: scale(0.6);
+    align-self: center;
     ;
 }
 .center {
@@ -23,14 +27,18 @@ body {
     margin-right: auto;
 }
 #bio {
-    font-size: 30px;
+    width:100%;
+    font-size: 2vw;
     text-align: center;
-    padding: 30px;
+    padding-right: 8px;
+    margin: 0px;
+
 }
 ul {
-    font-size: 30px;
-    align: center;
-}
+    text-align: center;
+    list-style: inside;
+    font-size: 20px;
+  }
 .hobbies {
     font-size: 35px;
     text-decoration: underline;
@@ -38,10 +46,8 @@ ul {
     
 }
 .contacts {
-    float: right;
-    width: 350px;
-    height: 100px;
-    padding: 20px 40px 20px 40px;
+    margin-left:auto;
+    margin-right:auto;
 }
 hr {
     display: block;
@@ -50,4 +56,36 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+}
+#main-content{
+    height: 500px;
+    display: flex;
+}
+#contact-me {
+    text-align: center;
+}
+#links {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+a {
+    color: black;
+}
+#email {
+    width: 33.3%;
+    font-size: 27px;
+}
+#twitter {
+    width: 33.3%;
+    transform: scale(1.5);
+    align-self: center;
+
+
+}
+#github {
+    width: 33.3%;
+    font-size: 27px;
+
 }

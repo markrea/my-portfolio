@@ -1,10 +1,23 @@
 #bio {
     width:50%;
     margin: auto;
-    flex-shrink: 1;
     font-size: 2vw;
+    flex-shrink: 1;
 
 }
 #hobby-list {
     margin: 80px;
+}
+#email { 
+   
+    font-size: 2em;
+}
+#github { 
+     
+    font-size: 2em;
+
+}
+#twitter { 
+    
+    transform: scale(1.7);
 }

@@ -11,9 +11,9 @@
    }
    
     #bio {
-        width:50%;
+        width:60%;
         margin: auto;
-
+        flex-shrink: 1;
         font-size: 3vw;
     }
     
@@ -24,22 +24,22 @@
         flex-wrap: wrap;
     }
     #email {
-        width: 30%;
-        font-size: 1em;
+        width: 27%;
+        font-size: 2vw;
         padding: 1.5em;
     
     }
     #twitter {
-        width: 30%;
-        transform: scale(1.4);
+        width: 27%;
+        transform: ;
         align-self: center;
         padding: 1.5em;
     
     }
     #github {
-        width: 30%;
-        font-size: 1em;
-        padding: 1.5em
+        width: 27%;
+        font-size: 1.5em;
+        padding: 1.5em;
 }
 h1 {
     margin-top: 10px;

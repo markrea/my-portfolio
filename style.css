@@ -21,7 +21,7 @@ h1 {
 
 }
 body {
-    background-color:#F7FBFF;
+    background:linear-gradient(90deg, #E8F7EE, #B8C4BB);
     margin:0;
     font-family: "Courier Prime", monospace;
     text-align: center;
@@ -38,7 +38,7 @@ section {
     width: 50%;
     border-radius:12px;
     align-self: center ;
-    ;
+    flex-shrink: 1;
 }
 .center {
     display: block;
@@ -50,6 +50,7 @@ section {
     font-size: 20px;
     text-align: center;
     margin: 10px;
+    flex-shrink: 1;
 
 }
 ul {
@@ -79,13 +80,15 @@ hr {
 
 #contact-me {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-decoration: underline;
 }
 #links {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    vertical-align: middle;
 
 }
 a {
@@ -95,6 +98,7 @@ a {
     width: 100%;
     font-size: 0.75em;
     padding: 1em;
+    
 
 }
 #twitter {
@@ -102,18 +106,24 @@ a {
     transform: scale(1);
     align-self: center;
     padding: 1em;
+    
 
 }
 #github {
     width: 100%;
     font-size: .75em;
-    padding: 1em
+    padding: 1em;
+    align-items: center;
+
+    
 
 }
-
-
-
-
-
-}
+ @media screen and (min-width:1570px) { 
+     body { 
+         width: 1570px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+ 
 

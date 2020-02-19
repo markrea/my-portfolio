@@ -1,0 +1,10 @@
+#bio {
+    width:50%;
+    margin: auto;
+    flex-shrink: 1;
+    font-size: 2vw;
+
+}
+#hobby-list {
+    margin: 80px;
+}

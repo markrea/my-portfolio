@@ -1,3 +1,14 @@
+.topnav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px 0px 20px 0px;
+    font-size: 15px;
+
+}
+.navlink {
+    padding: 12px;
+}
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -20,6 +31,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     border-top: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 #mark_image {
     width: 50%;
@@ -66,6 +79,7 @@ hr {
 
 #contact-me {
     text-align: center;
+    font-size: 1.5em;
 }
 #links {
     display:flex;
@@ -80,19 +94,26 @@ a {
 #email {
     width: 100%;
     font-size: 0.75em;
-    padding: 1.5em;
+    padding: 1em;
 
 }
 #twitter {
     width: 100%;
     transform: scale(1);
     align-self: center;
-    padding: 1.5em;
+    padding: 1em;
 
 }
 #github {
     width: 100%;
     font-size: .75em;
-    padding: 1.5em
+    padding: 1em
 
 }
+
+
+
+
+
+}
+

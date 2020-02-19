@@ -1,0 +1,55 @@
+@media screen and (min-width:520px) {
+  section {
+       display:flex;
+        width: auto;
+       margin: auto;
+
+   }
+   #mark_image {
+       width: 30%;
+       margin: auto;
+       flex-shrink: 1;
+   }
+   
+    #bio {
+        width:50%;
+        margin: auto;
+        flex-shrink: 1;
+        font-size: 3vw;
+    }
+    
+    #links {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #email {
+        width: 30%;
+        font-size: 1em;
+        padding: 1.5em;
+    
+    }
+    #twitter {
+        width: 30%;
+        transform: scale(1.4);
+        align-self: center;
+        padding: 1.5em;
+    
+    }
+    #github {
+        width: 30%;
+        font-size: 1em;
+        padding: 1.5em
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 5px;
+    text-align: center;
+    font-family: "Courier Prime", monospace; 
+    font-size: 10vw;
+    text-decoration: underline;
+}
+}

@@ -16,7 +16,7 @@ h1 {
     padding: 5px;
     text-align: center;
     font-family: "Courier Prime", monospace; 
-    font-size: 15vw;
+    font-size: 6vw;
     text-decoration: underline;
 
 }
@@ -85,10 +85,10 @@ hr {
 }
 #links {
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
-    vertical-align: middle;
+   
 
 }
 a {
@@ -103,7 +103,6 @@ a {
 }
 #twitter {
     width: 100%;
-    transform: scale(1);
     align-self: center;
     padding: 1em;
     
@@ -115,15 +114,117 @@ a {
     padding: 1em;
     align-items: center;
 
-    
 
 }
- @media screen and (min-width:1570px) { 
-     body { 
-         width: 1570px;
+
+@media screen and (min-width:520px) {
+    section {
+        display:flex;
+         width: auto;
+        margin: auto;
+ 
+    }
+    #mark_image {
+        width: 30%;
+        margin: auto;
+    }
+    
+     #bio {
+         width:60%;
+         margin: auto;
+         flex-shrink: 1;
+         font-size: 3vw;
+     }
+     
+     #links {
+         display: flex;
+         justify-content: space-around;
+         text-align: center;
+         flex-wrap: wrap;
+     }
+     #email {
+         width: 27%;
+         font-size: 1em;
+         padding: 1em;
+     
+     }
+     #twitter {
+         width: 27%;
+         transform: ;
+         align-self: center;
+         padding: 1em;
+     
+     }
+     #github {
+         width: 27%;
+         font-size: 1em;
+         padding: 1em;
+ 
+ }
+ .hobbies {
+     font-size: 2em;
+ }
+ ul { 
+     font-size: 2vw;
+ }
+ .topnav {
+     font-size: 1.5em;
+ }
+ 
+ }
+
+
+ @media screen and (min-width: 871px) {
+   
+    h1 {
+        font-size: 3em;
+    }
+   
+    #bio {
+        width:50%;
+        margin: auto;
+        font-size: 2.6vw;
+        flex-shrink: 1;
+    
+    }
+    #mark_image {
+        width: 30%;
+        margin: auto;
+    }
+    #hobby-list {
+        margin: 80px;
+    }
+    #email { 
+       
+        font-size: 1.5em;
+    }
+    #github { 
+         
+        font-size: 1.5em;
+    
+    }
+    #twitter { 
+        
+        transform: scale(1.5);
+    }
+ }
+
+ @media screen and (min-width:1200px) {
+     body {
+         width:1200px;
          margin-left: auto;
-         margin-right: auto;
+         margin-right:auto;
+     }
+     #bio {
+         font-size: 1.5em;
      }
  }
+
+
+
+
+
+
+ 
  
 

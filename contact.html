@@ -9,11 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mark Rea | Contact</title>
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c1ea1c591f.js" crossorigin="anonymous"></script>
 </head>
 <header>
-<h1>About Me</h1>
-</header>
-<body> ￼￼￼
     <hr/>
     <ul class="topnav">
         <li class="navlink" href="#home">Home</li>   <!--page not yet created-->
@@ -21,4 +19,53 @@
         <li class="navlink" href="#contact">Contact</li>   <!--page not yet created-->
         <li class="navlink" href="#about">About</li>     
       </ul> 
-      <hr/> 
+      <hr/>
+</header>
+<body> ￼￼￼
+    <h1>Get in touch</h1>
+    <div id='contact-body'>
+    <i id='envelope' class="far fa-envelope"></i>
+
+    <form action="/my-handling-form-page" method="post"> 
+        <ul id='form-list'>
+         <li>
+                <label for="name"></label>
+              <input type="text" id="name" name="user_name" placeholder="Your name" />
+         </li>
+         <li>
+             <label for="mail"></label>
+             <input type="email" id="mail" name="user_email" placeholder="Your Email" />
+         </li>
+         <li>
+             <label for="msg"></label>
+            <textarea id="msg" name="user_message" placeholder="Your message"></textarea>
+         </li>
+         <span><li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+          <li class="button">
+            <button type="reset">Clear</button>
+          </li></span>
+    </ul>
+</div>
+
+
+
+ </body>
+
+ <footer>
+     <hr/>
+        <div class="contacts">
+        <div id= "links">
+            <span id="email" > <a href="mailto:markrea366@gmail.com" target="_top">Email</a></span>
+          <span id="twitter" ><a href="https://twitter.com/Mark__Rea?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Mark__Rea</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+          <span id="github" ><a href="https://github.com/markrea">GitHub</a></span>
+        </div>
+        </div>
+ </footer>
+        
+<br>
+ <br>
+        
+        
+ </html>

@@ -1,3 +1,6 @@
+ 
+/* Header Styles */
+
 .topnav {
     display: flex;
     width: 100%;
@@ -15,6 +18,10 @@
 }
 .navlink:hover { 
     transform: scale(1.5);
+
+/* End Header Styles*/
+
+/* Body Styles */
 }
 h1 {
     margin-top: 10px;
@@ -65,6 +72,7 @@ ul {
     list-style: inside;
     font-size: 15px;
     padding: 0px;
+
   }
 .hobbies {
     font-size: 25px;
@@ -72,10 +80,7 @@ ul {
     text-align: center;
     
 }
-.contacts {
-    margin-left:auto;
-    margin-right:auto;
-}
+
 hr {
     display: block;
     height: 1px;
@@ -84,6 +89,8 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/* Footer Styles */
 
 #contact-me {
     text-align: center;
@@ -95,6 +102,12 @@ hr {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
+
+}
+.contacts {
+    margin-left:auto;
+    margin-right:auto;
+}
   
 
 }
@@ -144,6 +157,53 @@ a {
 #github:hover { 
     transform: scale(1.5);
 }
+/* contact */
+#envelope {
+    font-size: 15em;
+    margin: auto;
+    padding-bottom: 60px;
+}
+form {
+    width:100%;
+    text-align: center;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+#form-list {
+    list-style: none;
+}
+
+input, 
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+
+  /* Uniform text field size */
+  width: 70%;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 3px solid #999;
+  border-radius: 25px;
+  background: transparent;
+}
+
+.button {
+    display: inline-block;
+}
+
+
+
+/* Media Queries */
 
 @media screen and (min-width:520px) {
     section {
@@ -194,11 +254,11 @@ a {
  }
  ul { 
      font-size: 2vw;
+    
  }
  .topnav {
      font-size: 1.5em;
- }
- 
+
  }
 
 
@@ -235,6 +295,20 @@ a {
         
         transform: scale(1.5);
     }
+
+    #contact-body {
+        
+        display: flex;
+    }
+    #envelope {
+        width: 30%;
+        text-align: center;
+    }
+    form {
+        width: 60%;
+        text-align: center ;
+
+    }
  }
 
  @media screen and (min-width:1200px) {
@@ -245,6 +319,11 @@ a {
      }
      #bio {
          font-size: 1.5em;
+     }
+     footer {
+         width: 1200px;
+         margin-left: auto;
+         margin-right: auto;
      }
  }
 

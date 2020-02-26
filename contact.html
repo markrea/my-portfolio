@@ -10,6 +10,7 @@
     <title>Mark Rea | Contact</title>
     <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c1ea1c591f.js" crossorigin="anonymous"></script>
+   
 </head>
 <header>
     <hr/>
@@ -22,6 +23,7 @@
       <hr/>
 </header>
 <body> ￼￼￼
+    <script type="text/javascript" src="JS/main.js"></script>
     <h1>Get in touch</h1>
     <div id='contact-body'>
     <i id='envelope' class="far fa-envelope"></i>
@@ -41,10 +43,10 @@
             <textarea id="msg" name="user_message" placeholder="Your message"></textarea>
          </li>
          <span><li class="button">
-            <button type="submit">Send your message</button>
+            <button onclick="formSub()" id = "submit" type="submit">Send your message</button>
           </li>
           <li class="button">
-            <button type="reset">Clear</button>
+            <button onclick="formClear()" id="clear" type="reset">Clear</button>
           </li></span>
     </ul>
 </div>

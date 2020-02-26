@@ -18,11 +18,16 @@
 }
 .navlink:hover { 
     transform: scale(1.5);
+    
+}
 
+.navlink:active { 
+    text-decoration: underline;
+}
 /* End Header Styles*/
 
 /* Body Styles */
-}
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;

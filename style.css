@@ -98,10 +98,10 @@ hr {
     text-decoration: underline;
 }
 #links {
-    display:flex;
-    justify-content: space-around;
+    display:inline-block;
+    justify-content: center;
     text-align: center;
-    flex-wrap: wrap;
+ 
 
 }
 .contacts {
@@ -117,17 +117,10 @@ a:hover {
 
 a {
     color: black;
+    padding: 5px;
     
 }
 
-
-#email {
-    width: 100%;
-    font-size: 0.75em;
-    padding: 1em;
-    transition: all .2s ease-in-out;
-
-}
 
 #email:hover { 
     transform: scale(1.5);
@@ -135,8 +128,8 @@ a {
 
 #twitter {
     width: 100%;
-    align-self: center;
-    padding: 1em;
+    font-size: 3em;
+    align-items: center;
     transition: all .2s ease-in-out;
 
 }
@@ -147,8 +140,7 @@ a {
 
 #github {
     width: 100%;
-    font-size: .75em;
-    padding: 1em;
+    font-size: 3em;
     align-items: center;
     transition: all .2s ease-in-out;
 
@@ -157,11 +149,21 @@ a {
 #github:hover { 
     transform: scale(1.5);
 }
+
+#linkedin {
+    width: 100%;
+    font-size: 3em;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+#linkedin:hover {
+    transform: scale(1.5);
+}
 /* contact */
 #envelope {
-    font-size: 15em;
+    font-size: 10em;
     margin: auto;
-    padding-bottom: 60px;
 }
 form {
     width:100%;
@@ -197,8 +199,21 @@ textarea {
   background: transparent;
 }
 
-.button {
-    display: inline-block;
+
+button {
+    background-color: black;
+    border: none;
+	border-radius: 20px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: inherit;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 10px 20px;
+    text-decoration: none;
+    float: center;
+    margin: 10px;
 }
 
 
@@ -224,28 +239,19 @@ textarea {
          font-size: 3vw;
      }
      
-     #links {
-         display: flex;
-         justify-content: space-around;
-         text-align: center;
-         flex-wrap: wrap;
-     }
-     #email {
+     #linkedin {
          width: 27%;
-         font-size: 1em;
          padding: 1em;
      
      }
      #twitter {
          width: 27%;
-         transform: ;
-         align-self: center;
          padding: 1em;
      
      }
      #github {
          width: 27%;
-         font-size: 1em;
+         
          padding: 1em;
  
  }
@@ -284,16 +290,16 @@ textarea {
     }
     #email { 
        
-        font-size: 1.5em;
+       
     }
     #github { 
          
-        font-size: 1.5em;
+       
     
     }
     #twitter { 
         
-        transform: scale(1.5);
+       
     }
 
     #contact-body {
@@ -308,6 +314,11 @@ textarea {
         width: 60%;
         text-align: center ;
 
+    }
+
+    #envelope {
+        font-size: 15em;
+        padding-bottom: 60px;
     }
  }
 

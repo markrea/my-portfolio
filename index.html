@@ -13,29 +13,38 @@
     
 </head>
 <body>
+
     <hr/>
     <ul class="topnav">
-        <li class="navlink" href="#home">Home</li>   <!--page not yet created-->
-        <li class="navlink" href="#Portfolio">Portfolio</li>  <!--page not yet created-->
-        <li class="navlink" href="#contact">Contact</li>   <!--page not yet created-->
-        <li class="navlink" href="#about">About</li>     
+        <li class="navlink active" onclick="location.href='index.html'">My Work</li>  <!--this page-->
+        <li class="navlink" onclick="location.href='contact.html'">Contact</li> 
+        <li class="navlink "  onclick="location.href='about.html'">About</li>     
       </ul> 
       <hr/> 
-      
-
+      <h1>Projects</h1>
+      <br>
+      <br>
       <div class="cards">
-        <article class="card">
+        <div class="card" onclick="location.href='https://github.com/markrea/My-scrapbook/blob/master/index.html'">
+            <h2 class="title">My HTML Scrapbook</h2>
+            <img src="Images/html-scrapbook-image.png" alt="A picture of Marks first website">
+            <footer class="card-footer">
+                A scrapbook of many different HTML elements to use as a reference for future projects
+            </footer>
+        </div>
+        
+        
+        <div class="card" onclick="location.href='https://github.com/markrea/my-first-webpage'" >
             <h2 class="title">My First Website</h2>
-            <img src="screencapture-file-home-mark-Projects-my-first-webpage-index-html-2020-02-27-10_43_57.png" alt="A picture of Marks first website">
-            
-
-        </article> 
-        <article class="card">
-            <h2 class="title">My First Website</h2>
-            <img src="screencapture-file-home-mark-Projects-my-first-webpage-index-html-2020-02-27-10_43_57.png" alt="A picture of Marks first website">
-        </article>
+            <img src="Images/screencapture-file-home-mark-Projects-my-first-webpage-index-html-2020-02-27-10_43_57.png" alt="A picture of Marks first website">
+            <footer class="card-footer">
+                This is a very basic first website I created using HTML
+            </footer>
+         </div> 
+      
     </div>
-
+<br>
+<br>
 
 </body>
 

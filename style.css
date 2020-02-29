@@ -14,14 +14,17 @@
     padding: 12px;
     transition: all .2s ease-in-out;
     list-style: none;
+    cursor: pointer;
 }
 .navlink:hover { 
     transform: scale(1.5);
     
 }
 
-.navlink:active { 
-    text-decoration: underline;
+.active { 
+    text-decoration: underline ;
+    font-weight: bold;
+    transform: scale(1.5);
 }
 /* End Header Styles*/
 
@@ -54,9 +57,9 @@ section {
 }
 #mark_image {
     width: 50%;
-    border-radius:12px;
+    border-radius:50%;
     align-self: center ;
-    flex-shrink: 1;
+    
 }
 .center {
     display: block;
@@ -222,28 +225,51 @@ button {
  /* Cards */
 
 .cards {
-    align-content: center;
-    width: 100%;
+   
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-gap: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+   
     
 
 }
 .card {
-    position: relative;
     border: 2px solid black;
+    width: 80%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5%;
+
+    overflow: hidden;  /* stops nested elements over lapping border
+                            when using border radius */
+   
    
 }
 .card img {
     object-fit: cover;
     width: 100%;
+    display: block; /* removes gap at bottom of image */
     
 }
 .title{
     border-bottom: 2px solid black;
     margin-bottom: 0em;
-    margin-top: 0.5em;
+    margin-top: 0em;
+    padding-top: 0.3em;
+    background: #477998;
+    
+}
+.card-footer {
+    width: 100%;
+    border-top: 2px solid black;
+    font-size: 1.5rem;
+    background: #031D44;
+    color: white;
+    height: 100%;
+    align-content: center;
+
 }
 
 
@@ -297,7 +323,10 @@ button {
      font-size: 1.5em;
 
  }
-
+ @media screen and (min-width: 680px) {
+    .cards {
+        grid-template-columns: repeat( 2 , minmax(300px, 1fr));
+    }
 
  @media screen and (min-width: 871px) {
    
@@ -351,7 +380,12 @@ button {
         font-size: 15em;
         padding-bottom: 60px;
     }
+    
+ 
+    
+    
  }
+
 
  @media screen and (min-width:1200px) {
      body {
